@@ -1,5 +1,5 @@
 # Breast-cancer-dataset
-This is the codes for paper "A DCE-MRI Dataset for Breast Tumor Image Classification and Segmentation".  Due to capacity limitations, you can send an email to <tzczsq@163.com> for the
+This is the codes for paper "BreastDM: A DCE-MRI Dataset for Breast Tumor Image Classification and Segmentation".  Due to capacity limitations, you can send an email to <tzczsq@163.com> for the
 original dataset.
 ## Classification task
 ### 1. Environment
