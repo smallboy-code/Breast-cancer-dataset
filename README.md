@@ -1,5 +1,5 @@
 # Breast-cancer-dataset
-This is the codes for paper "BreastDM: A DCE-MRI Dataset for Breast Tumor Image Classification and Segmentation".  Due to patient privacy and copyright issues with the original dataset, you can apply for the dataset by sending an agreement to [tzczsq@163.com](tzczsq@163.com). 
+This is the codes for paper "BreastDM: A DCE-MRI Dataset for Breast Tumor Image Segmentation and Classification, Xiaoming Zhao; Yuehui Liao; Jiahao Xie; Xiaxia He; Shiqing Zhang*; Guoyu Wang*; Jiangxiong Fang; Hongsheng Lu; Jun Yu. Computers in Biology and Medicine, Doi:10.1016/j.compbiomed.2023.107255, 2023."[https://www.sciencedirect.com/science/article/abs/pii/S0010482523007205](https://www.sciencedirect.com/science/article/abs/pii/S0010482523007205). Due to patient privacy and copyright issues with the original dataset, you can apply for the dataset by sending an agreement to [tzczsq@163.com](tzczsq@163.com). 
 ## Classification task
 ### 1. Environment
 see the requirements.txt
