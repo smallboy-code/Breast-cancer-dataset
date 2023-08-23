@@ -1,5 +1,5 @@
 # Breast-cancer-dataset
-This is the codes for paper "BreastDM: A DCE-MRI Dataset for Breast Tumor Image Segmentation and Classification, Xiaoming Zhao; Yuehui Liao; Jiahao Xie; Xiaxia He; Shiqing Zhang*; Guoyu Wang*; Jiangxiong Fang; Hongsheng Lu; Jun Yu. Computers in Biology and Medicine, Doi:10.1016/j.compbiomed.2023.107255, 2023."[https://www.sciencedirect.com/science/article/abs/pii/S0010482523007205](https://www.sciencedirect.com/science/article/abs/pii/S0010482523007205). We have presented our dataset by the url "[https://drive.google.com/file/d/1GvNwL4iPcB2GRdK2n353bKiKV_Vnx7Qg/view?usp=drive_link].
+This is the codes for paper "BreastDM: A DCE-MRI Dataset for Breast Tumor Image Segmentation and Classification, Xiaoming Zhao; Yuehui Liao; Jiahao Xie; Xiaxia He; Shiqing Zhang*; Guoyu Wang*; Jiangxiong Fang; Hongsheng Lu; Jun Yu. Computers in Biology and Medicine, Doi:10.1016/j.compbiomed.2023.107255, 2023."[https://www.sciencedirect.com/science/article/abs/pii/S0010482523007205](https://www.sciencedirect.com/science/article/abs/pii/S0010482523007205). We have presented our dataset by the url "[https://drive.google.com/file/d/1GvNwL4iPcB2GRdK2n353bKiKV_Vnx7Qg/view?usp=drive_link](https://drive.google.com/file/d/1GvNwL4iPcB2GRdK2n353bKiKV_Vnx7Qg/view?usp=drive_link).
 ## Classification task
 ### 1. Environment
 see the requirements.txt
