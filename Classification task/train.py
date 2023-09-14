@@ -213,7 +213,8 @@ def val(model):
     # plot_confusion_matrix(cm,savename='./png/test2.png')
     label_onehot = np.eye(num_classes)[np.array(label).astype(np.int32).tolist()]
     fpr, tpr, thresholds = roc_curve(label_onehot.ravel(), possbilitys.ravel())
-    index, optimal_threshold = youden(tpr, fpr, thresholds)
+    index = np.argmax(tpr - fpr)
+    optimal_threshold = thresholds[index]
     auc_value = auc(fpr, tpr)
     test_loss /= len_target_dataset
     # print('FPR:',fpr)
@@ -257,7 +258,8 @@ def test(model):
     # plot_confusion_matrix(cm, savename='./png/resnet101.png')
     label_onehot = np.eye(num_classes)[np.array(label).astype(np.int32).tolist()]
     fpr, tpr, thresholds = roc_curve(label_onehot.ravel(), possbilitys.ravel())
-    index, optimal_threshold = youden(tpr, fpr, thresholds)
+    index = np.argmax(tpr - fpr)
+    optimal_threshold = thresholds[index]
     auc_value = auc(fpr, tpr)
     # auc_2 = roc_auc_score(label,possbilitys.ravel())
     # print(auc_2)
